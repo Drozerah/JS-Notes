@@ -2,7 +2,7 @@
 
 > Ces notes sont destinées à l'apprentissage de la programmation en JavaScript. Elles pourront également servir de base à la rédaction d'articles ultérieurs ou à la préparation d'autres formes d'interventions à caractère pédagogique.
 
-> Tous les exemples de code présentés au cour de cette documentation sont regroupés dans le répertoire `demo` présent à la racine de [ce dépot GitHub](https://github.com/Drozerah/js-notes.git). Ils peuvent être exécuté directement dans le terminal via la commande : `node demo_x.js`. Devant chaque exemple est indiqué le nom du fichier de démonstration correspondant. Certains fichiers peuvent contenir plusieurs variantes alors commentées.
+> Tous les exemples de code présentés au cour de cette documentation sont regroupés dans le répertoire `demo` présent à la racine de [ce dépot GitHub](https://github.com/Drozerah/JS-Notes.git). Ils peuvent être exécuté directement dans le terminal via la commande : `node demo_x.js`. Devant chaque exemple est indiqué le nom du fichier de démonstration correspondant. Certains fichiers peuvent contenir plusieurs variantes alors commentées.
 
 Auteur : [Drozerah aka Thomas G](https://github.com/Drozerah).
 
