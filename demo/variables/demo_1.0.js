@@ -9,6 +9,7 @@
   }
   console.log(`v is ${v}`) // v is 10 
   console.log(`l is ${l}`) // ReferenceError: l is not defined
+
 })()
 
 /**
