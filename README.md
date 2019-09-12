@@ -94,7 +94,7 @@ Réasigner un Objet de type tableau lève également une exception bien qu'il so
         amount: 3
     }
     obj.amount = 10
-    console.log('obj is ', obj) // obj is  { product: 'banana', amount: 10 }
+    console.log('obj is ', obj) // obj is  { product: 'Banana', amount: 10 }
 })()
 ````
 
