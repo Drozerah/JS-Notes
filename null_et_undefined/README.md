@@ -20,7 +20,7 @@ Il existe un autre mot-clé pour indiquer l'absence de valeur en JavaScript. La 
     console.log(typeof undefined) // undefined
 })()
 ```
-Malgré les différences entre  `null` et `undefined`, ces types indiquent tous les deux l'absence de valeur et peuvent être utilisés de manière interchangeable. L'opérateur d'égalité `==` les considère comme égaux, il faut utiliser l'opérateur d'égalité stricte pour les différencier. Ni `null` ni `undefined` ne possèdent de propriétés ou de méthodes et sont toutes deux des valeurs fausses (falsy) quand elles sont évaluées dans un contexte booléen.
+Malgré les différences entre  `null` et `undefined`, ces types indiquent tous les deux l'absence de valeur et peuvent être utilisés de manière interchangeable. L'opérateur d'égalité `==` les considère comme égaux, il faut utiliser l'opérateur d'égalité stricte `===` pour les différencier. Ni `null` ni `undefined` ne possèdent de propriétés ou de méthodes et sont toutes deux des valeurs fausses (falsy) quand elles sont évaluées dans un contexte booléen.
 
 [demo_3.2.js](./demo_3.2.js)
 ````javascript
