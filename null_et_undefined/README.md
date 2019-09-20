@@ -10,7 +10,7 @@ En JavaScript, le mot-clé `null` correspond à une valeur particulière génér
     console.log(typeof null) // object
 })()
 ```
-Il existe un autre mot-clé pour indiquer l'absence de valeur en JavaScript. La valeur `undefined` represente une absence plus profonde et correspond à la valeur de variables qui n'auraient pas été initialisées ainsi que celle obtenue sur les propriétés d'objet ou de tableau qui n'existent pas. `undefined` est aussi retourné par les fonctions pour lesquelles aucune valeur de retour n'auraient été spécifiée ainsi que pour les paramètres de fonctions pour lesquels aucune valeur n'est attribuée. Contrairement au mot clé `null`, `undefined` est une variable globale prédéfinie qui est initialisée avec la valeur "undefined". Si nous appliquons l'opérateur `typeof` sur `undefined`, nous obtenons la chaîne de caractère "undefined".
+Il existe un autre mot-clé pour indiquer l'absence de valeur en JavaScript. La valeur `undefined` represente une absence plus profonde et correspond à la valeur de variables qui n'auraient pas été initialisées ainsi que celle obtenue sur les propriétés d'objet ou de tableau qui n'existent pas. `undefined` est aussi retourné par les fonctions pour lesquelles aucune valeur de retour n'aurait été spécifiée ainsi que pour les paramètres de fonction pour lesquels aucune valeur n'est attribuée. Contrairement au mot clé `null`, `undefined` est une variable globale prédéfinie qui est initialisée avec la valeur "undefined". Si nous appliquons l'opérateur `typeof` sur `undefined`, nous obtenons la chaîne de caractère "undefined".
 
 [demo_3.1.js](./demo_3.1.js)
 ```javascript
