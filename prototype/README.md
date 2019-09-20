@@ -50,7 +50,7 @@ Il n'est pas possible de déclarer un constructeur ou une méthode via prototype
 
 [1] Objet litéral :
 
-En JavaScript, déclarer objet litéral correspond à une façon d'écrire/coder un objet sous la forme d'une liste de propriétés (clés) et de valeurs séparées par deux point verticaux, délimitées par des virgules et entourées par des accolades {} (curly braces). Les objets litéraux permettent d'emcapsuler des données et donc de réduire l'utilisation de variables globales, ils permettent également de structurer les données...
+En JavaScript, déclarer un objet litéral correspond à une façon d'écrire/coder un objet sous la forme d'une liste de propriétés (clés) et de valeurs séparées par deux point verticaux, délimitées par des virgules et entourées par des accolades {} (curly braces). Les objets litéraux permettent d'emcapsuler des données et donc de réduire l'utilisation de variables globales, ils permettent également de structurer les données...
 
 exemple : 
 ````javascript
