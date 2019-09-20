@@ -4,12 +4,11 @@
 
 > Tous les exemples de code présentés au cour de cette documentation sont regroupés en sous-répertoires correspondants aux chapitres indiqués dans le sommaire. Devant chaque exemple est indiqué un lien vers un fichiers JavaScript utilisable dans le terminal. Certains fichiers peuvent contenir plusieurs variantes alors commentées.
 
-
 ## Sommaire:
 
-- [Les Variables](./operateurs/README.md)
-- [Les Opérateurs](./variables/README.md)
-- [`null` et `undefined`](./null_et_undefined/README.md)
+- [Les Variables](./variables/README.md)
+- [Les Opérateurs](./operateurs/README.md)
+- [null et undefined](./null_et_undefined/README.md)
 - [Prototype](./prototype)
 
 
