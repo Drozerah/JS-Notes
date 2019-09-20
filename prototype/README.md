@@ -42,7 +42,7 @@ L'ajout d'une méthode par prototype sur un objet constructeur (ici Person) rend
 L'ajout d'une méthode d'instance (en tant que propriété particulière à une instance d'un objet constructeur) rend cette méthode uniquement disponible pour cette instance. En effet, dans l'exemple ci-dessus, la méthode `.getAge()` n'est pas disponible pour l'objet `person2`. ` person2.getAge()` retourne donc une erreur `TypeError: person2.getAge is not a function`.
 
 
-__Remarque:__
+__Remarques:__
 
 Lorsqu'une fonction héritée (par prototype ou par méthode d'instance) est exécutée, la valeur de `this` pointe vers l'objet hérité (instance) et non vers l'objet prototype qui possède la fonction comme propriété en propre.
 
