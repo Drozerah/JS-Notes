@@ -4,7 +4,7 @@ const Person = function(name, age){
     this.age = age
 }
 
-// add speak method to Peson object by prototype
+// add speak method to Person object by prototype
 Person.prototype.speak = function(){
     console.log(`Hi! My name is ${this.name}`)
 }
