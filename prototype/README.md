@@ -6,6 +6,8 @@ Lorsque nous définissons un `Object` en JavaScript, celui-ci possède automatiq
 
 Tous les objets créés grâce à un littéral [1] (appelé initialisateur) possèdent le même prototype qui est celui de type `Object`. La propriété `Object.prototype` représente le prototype de `Object`. Pour les objets créés avec l'opérateur `new` et avec un constructeur qui doit être une fonction, la propriété `Object.prototype` fait référence au constructeur lui-même. Ainsi, un objet créé avec `new Object()` hérite de la propriété `Object.prototype`, il en est de même pour les objets literaux. Un objet de type tableau créé avec l'opérateur `new Array()` hérite du prototype `Array.prototype` qui est donc le prototype de son constructeur qui est de type tableau (array), ce dernier héritant lui-même du prototype de son ancêtre qui n'est autre qu' `Object`.
 
+__Ajout de méthode via prototype__
+
 La propriété `prototype` d'un `Object` permet d'ajouter des méthodes à cet objet en tant que nouvelles propriétés, une méthode étant une propriété d'un objet qui est de type fonction: 
 
 [`demo_4.0.js`](./demo_4.0.js)
