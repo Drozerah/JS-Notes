@@ -1,4 +1,4 @@
-# `null` et `undefined`
+# null et undefined
 
 En JavaScript, le mot-clé `null` correspond à une valeur particulière généralement utilisée pour indiquer l'absence de valeur. Si l'on utilise l'[opérateur `typeof`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/L_op%C3%A9rateur_typeof) sur `null`, il retourne la chaîne de caractère "object" ce qui indique que `null` peut être considéré comme une valeur de l'objet global qui indiquerait "pas d'objet". En pratique, `null` est considéré comme le seul membre de sa catégorie et il peut être utilisé pout indiquer "pas de valeur", que cela soit pour les types `number`, `string` ainsi que les objects.
 
